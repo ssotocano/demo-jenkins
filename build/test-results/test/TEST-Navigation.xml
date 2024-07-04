@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Navigation" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-07-04T20:22:58" hostname="sergios-mbp.home" time="12.217">
+  <properties/>
+  <testcase name="Courses are presented correctly to potential customers" classname="Navigation" time="12.217"/>
+  <system-out><![CDATA[
+@Navigation @Courses
+Scenario: Courses are presented correctly to potential customers ?[90m# src/test/resources/FreeRangeNavegacion.feature:22?[0m
+  ?[32mGiven ?[0m?[32mI navigate to www.freerangetesters.com?[0m                   ?[90m# steps.FreeRangeSteps.iNavigateToFRT()?[0m
+  ?[32mWhen ?[0m?[32mI go to ?[0m?[32m?[1mCursos?[0m?[32m using the navigation bar?[0m                   ?[90m# steps.FreeRangeSteps.navigationBarUse(java.lang.String)?[0m
+  ?[32mAnd ?[0m?[32mI select Introducción al Testing?[0m                           ?[90m# steps.FreeRangeSteps.navigateToIntro()?[0m
+]]></system-out>
+  <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jul 04, 2024 10:23:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 126, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 126
+]]></system-err>
+</testsuite>
